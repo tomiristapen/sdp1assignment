@@ -102,7 +102,7 @@ public class Main {
             }
 
             // Выбор сиропа
-            System.out.println("Выберите сироп (1: Обычный, 2: Шоколадный):");
+            System.out.println("Выберите сироп (1: Ванильный, 2: Шоколадный):");
             int syrupChoice = scanner.nextInt();
             switch (syrupChoice) {
                 case 1:
