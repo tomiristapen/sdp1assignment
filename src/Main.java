@@ -1,5 +1,3 @@
-package Assignment2;
-
 //public class Main {
 //    public static void main(String[] args) throws CloneNotSupportedException {
 //        Scanner scanner = new Scanner(System.in);
@@ -131,6 +129,7 @@ import Assignment2.Bridge.HighlightRenderEngine;
 import Assignment2.Bridge.RenderEngine;
 import Assignment2.Bridge.SimpleRenderEngine;
 import Assignment2.Composite.DocumentGroup;
+import Assignment2.Document;
 import Assignment2.Facade.DocumentFacade;
 import Assignment2.Flyweight.DocumentFactory;
 
