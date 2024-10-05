@@ -1,6 +1,7 @@
 package Assignment2.Flyweight;
 
 import Assignment2.Document;
+import Assignment2.Proxy.ProxyDocument;
 import Assignment2.RealDocument;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +14,7 @@ public class DocumentFactory {
         // Проверяем, есть ли уже документ с таким заголовком
         if (!documentMap.containsKey(title)) {
             // Если нет, создаем новый документ
-            Document newDocument = new RealDocument(title);
+            Document newDocument = new ProxyDocument(title);
             documentMap.put(title, newDocument);
         }
         // Возвращаем существующий или новый документ
