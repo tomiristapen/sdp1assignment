@@ -1,3 +1,7 @@
+package Assignment2.Adapter;
+
+import Assignment2.Document;
+
 // Адаптер для интеграции PDF документа
 public class PDFDocumentAdapter implements Document {
     private PDFDocument pdfDocument;
@@ -13,3 +17,5 @@ public class PDFDocumentAdapter implements Document {
         pdfDocument.showPDF();
     }
 }
+
+

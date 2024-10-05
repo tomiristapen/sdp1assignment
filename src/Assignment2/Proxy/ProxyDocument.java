@@ -1,3 +1,8 @@
+package Assignment2.Proxy;
+
+import Assignment2.Document;
+import Assignment2.RealDocument;
+
 // Класс-прокси для ленивой загрузки документа
 public class ProxyDocument implements Document {
     private RealDocument realDocument;
@@ -16,5 +21,7 @@ public class ProxyDocument implements Document {
         realDocument.display();
     }
 }
+
+
 
 

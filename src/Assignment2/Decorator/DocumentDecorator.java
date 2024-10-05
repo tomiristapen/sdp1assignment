@@ -1,3 +1,6 @@
+package Assignment2.Decorator;
+
+import Assignment2.Document;
 
 // Абстрактный декоратор для добавления функциональности документам
 public abstract class DocumentDecorator implements Document {

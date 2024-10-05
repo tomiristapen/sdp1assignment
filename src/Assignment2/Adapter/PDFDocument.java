@@ -1,3 +1,5 @@
+package Assignment2.Adapter;
+
 // Представляет сторонний формат PDF документа
 public class PDFDocument {
     private String fileName;

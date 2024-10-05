@@ -1,3 +1,6 @@
+package Assignment2;
+
+// Реальный документ, который требует загрузки
 // Реальный документ, который требует загрузки
 public class RealDocument implements Document {
     private String title;
@@ -18,4 +21,5 @@ public class RealDocument implements Document {
         System.out.println("Отображение документа: " + title);
     }
 }
+
 

@@ -1,3 +1,7 @@
+package Assignment2.Flyweight;
+
+import Assignment2.Document;
+import Assignment2.RealDocument;
 import java.util.HashMap;
 import java.util.Map;
 //Flyweight

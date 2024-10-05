@@ -1,3 +1,5 @@
+package Assignment2.Bridge;
+
 // Реализация рендеринга документа с выделением текста
 public class HighlightRenderEngine implements RenderEngine {
     @Override

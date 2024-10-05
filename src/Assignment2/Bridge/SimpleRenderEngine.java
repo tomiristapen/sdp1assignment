@@ -1,3 +1,5 @@
+package Assignment2.Bridge;
+
 // Реализация простого рендеринга документа
 public class SimpleRenderEngine implements RenderEngine {
     @Override
